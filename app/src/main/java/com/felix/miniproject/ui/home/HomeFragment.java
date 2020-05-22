@@ -66,7 +66,7 @@ public class HomeFragment extends Fragment {
                         markers.clear();
                         Marker marker = googleMap.addMarker(new MarkerOptions()
                                 .position(latLng)
-                                .title("Search for near by"));
+                                .title("Search for nearby"));
                         markers.add(marker);
                         SearchNearByRestrant(latLng);
                     }
